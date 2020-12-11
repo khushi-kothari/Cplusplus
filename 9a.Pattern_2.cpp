@@ -19,16 +19,16 @@ int main() {
     //Row is the no. of row u r on
     for(int row=1; row<=n; row++) {
         for(int k=1; k<=n-row; k++) 
-        printf(" ");
+            cout << " ";
         
         for(int k=row; k<=2*row-1; k++) {
-            printf("%d", k);
+            cout << k;
         }
         
         for(int k=2*row-2; k>=row; k--) {
-            printf("%d", k);
+            cout << k;
         }
-        printf("\n");
+        cout << endl;
     }
     
     return 0;
