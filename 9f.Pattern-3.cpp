@@ -28,7 +28,8 @@ int main() {
         
         for(int j=0; j<=i; j++) {
             cout << k;
-            k = k==1 ? 0:1;
+            k = 1-k; //if k=0, new k = 1
+                     //if k=1, new k = 0
         }
         cout << endl;
     }
