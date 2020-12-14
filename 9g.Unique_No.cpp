@@ -27,6 +27,12 @@ int main () {
     cout <<"Enter n" <<endl;
     cin  >> n;
     
+    /*
+    if n=7
+    list of num - 2, 3, 5, 6, 3, 2, 5
+    output - 6  
+    */
+    
     for(int i=0; i<n; i++) {
         cout << "Enter a num: "; 
         cin >> num;
